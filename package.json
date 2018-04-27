@@ -1,0 +1,29 @@
+{
+  "name": "httpbook2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.*",
+    "debug": "mocha --inspect-brk test/*.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1000copy/httpbook2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1000copy/httpbook2.0/issues"
+  },
+  "homepage": "https://github.com/1000copy/httpbook2.0#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "superagent": "^3.8.2",
+    "supertest": "^3.0.0"
+  }
+}
